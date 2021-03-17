@@ -15,7 +15,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(1366,700);
+  createCanvas(1766,700);
   carGroup1 = new Group();
   logGroup1 = new Group();
 
@@ -44,7 +44,7 @@ function setup() {
 
     //Creating city
     city=createSprite(width/2,-1500);
-    city.addAnimation("city",cityAnimation);
+    
  }
 
 function draw() {
